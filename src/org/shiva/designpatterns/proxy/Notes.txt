@@ -1,0 +1,3 @@
+There are few differences between the related patterns. Like Adapter pattern gives a different interface to its subject,
+ while Proxy patterns provides the same interface from the original object but the decorator provides an enhanced
+  interface. Decorator pattern adds additional behaviour at runtime.
