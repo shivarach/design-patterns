@@ -1,5 +1,7 @@
 package org.shiva.designpatterns.adapter;
 
+import org.shiva.designpatterns.adapter.model.Volt;
+
 public class Client {
     public static void main(String[] args) {
         final SocketAdapter socketClassAdapter = new SocketClassAdapterImpl();

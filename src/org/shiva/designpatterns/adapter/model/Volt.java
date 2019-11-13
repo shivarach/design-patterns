@@ -1,4 +1,4 @@
-package org.shiva.designpatterns.adapter;
+package org.shiva.designpatterns.adapter.model;
 
 public class Volt {
 

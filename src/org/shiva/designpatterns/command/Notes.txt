@@ -1,0 +1,12 @@
+Definition:
+In object-oriented programming, the command pattern is a behavioral design pattern in which an object is used to
+encapsulate all information needed to perform an action or trigger an event at a later time. This information includes
+the method name, the object that owns the method and values for the method parameters.
+
+Commander looks same as strategy. The difference is
+
+* Strategy is meant for an algorithm i.e. a list can be passed to different sorting strategy implementations
+* Command is an action that is done on a passed in object
+
+
+Eg: Runnable command in thread pool with run action, Networking i.e. player actions in computer games

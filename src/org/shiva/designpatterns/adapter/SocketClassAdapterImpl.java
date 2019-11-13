@@ -1,5 +1,7 @@
 package org.shiva.designpatterns.adapter;
 
+import org.shiva.designpatterns.adapter.model.Volt;
+
 //using inheritance for adapter pattern
 // other variation is composition of ElectricSocket instead of inheritance
 public class SocketClassAdapterImpl extends ElectricSocket implements SocketAdapter {
