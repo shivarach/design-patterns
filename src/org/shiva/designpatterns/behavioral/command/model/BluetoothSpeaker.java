@@ -1,4 +1,4 @@
-package org.shiva.designpatterns.command.model;
+package org.shiva.designpatterns.behavioral.command.model;
 
 public class BluetoothSpeaker {
 

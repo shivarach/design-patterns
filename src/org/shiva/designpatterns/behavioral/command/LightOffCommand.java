@@ -1,6 +1,6 @@
-package org.shiva.designpatterns.command;
+package org.shiva.designpatterns.behavioral.command;
 
-import org.shiva.designpatterns.command.model.Light;
+import org.shiva.designpatterns.behavioral.command.model.Light;
 
 public class LightOffCommand implements Command{
 

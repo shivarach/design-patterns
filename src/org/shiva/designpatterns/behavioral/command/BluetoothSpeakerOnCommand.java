@@ -1,6 +1,6 @@
-package org.shiva.designpatterns.command;
+package org.shiva.designpatterns.behavioral.command;
 
-import org.shiva.designpatterns.command.model.BluetoothSpeaker;
+import org.shiva.designpatterns.behavioral.command.model.BluetoothSpeaker;
 
 public class BluetoothSpeakerOnCommand implements Command {
 

@@ -1,7 +1,7 @@
-package org.shiva.designpatterns.command;
+package org.shiva.designpatterns.behavioral.command;
 
-import org.shiva.designpatterns.command.model.BluetoothSpeaker;
-import org.shiva.designpatterns.command.model.Light;
+import org.shiva.designpatterns.behavioral.command.model.BluetoothSpeaker;
+import org.shiva.designpatterns.behavioral.command.model.Light;
 
 import java.util.ArrayList;
 import java.util.List;

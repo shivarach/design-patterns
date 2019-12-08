@@ -1,6 +1,6 @@
-package org.shiva.designpatterns.adapter;
+package org.shiva.designpatterns.structural.adapter;
 
-import org.shiva.designpatterns.adapter.model.Volt;
+import org.shiva.designpatterns.structural.adapter.model.Volt;
 
 public class ElectricSocket {
 

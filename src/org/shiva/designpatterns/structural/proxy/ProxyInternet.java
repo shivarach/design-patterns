@@ -1,4 +1,4 @@
-package org.shiva.designpatterns.proxy;
+package org.shiva.designpatterns.structural.proxy;
 
 import java.util.ArrayList;
 import java.util.List;
