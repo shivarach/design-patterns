@@ -1,6 +1,6 @@
-package org.shiva.designpatterns.builder.model;
+package org.shiva.designpatterns.creational.builder.model;
 
-import org.shiva.designpatterns.builder.PersonBuilder;
+import org.shiva.designpatterns.creational.builder.PersonBuilder;
 
 public class Person {
 
