@@ -5,6 +5,9 @@ import org.shiva.designpatterns.structural.flyweight.model.FlyweightSprintCar;
 
 public class Client {
     public static void main(String[] args) {
+        /*
+        Use sharing to support large numbers of fine-grained objects efficiently
+         */
         RaceCarClient raceCars[] = {
                 new RaceCarClient("Midget"),
                 new RaceCarClient("Midget"),
