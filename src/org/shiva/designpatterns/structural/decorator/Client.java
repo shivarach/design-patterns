@@ -6,6 +6,10 @@ import org.shiva.designpatterns.structural.decorator.decorator.PaperWrapper;
 import org.shiva.designpatterns.structural.decorator.decorator.RibbonBow;
 
 public class Client {
+    /*
+    Attach additional responsibilities to an object dynamically. Decorators provide a flexible alternative
+    to subclassing for extending functionality
+     */
     public static void main(String[] args) {
         /*Rose bouquet with no decoration*/
         final FlowerBouquet roseBouquet = new RoseBouquet();
