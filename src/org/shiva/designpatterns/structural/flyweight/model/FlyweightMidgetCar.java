@@ -4,9 +4,12 @@ public class FlyweightMidgetCar extends RaceCar {
 
     /*Track number of flyweight instantiation*/
     public static int num;
-    public FlyweightMidgetCar() {
+
+    public FlyweightMidgetCar(String name, int speed, int horsePower) {
+        super(name, speed, horsePower);
         num++;
     }
+
 
     /*This method accepts car location (extrinsic). No reference to current
      *or new location is maintained inside the flyweight implementation*/

@@ -19,16 +19,10 @@ public class CarFactory {
         /*If key does not exist in Map, create flyweight, put it in Map, and return the object*/
         switch (key) {
             case "Midget":
-                raceCar = new FlyweightMidgetCar();
-                raceCar.name = "Midget Car";
-                raceCar.speed = 140;
-                raceCar.horsePower = 400;
+                raceCar = new FlyweightMidgetCar("Midget Car", 140, 400);
                 break;
             case "Sprint":
-                raceCar = new FlyweightSprintCar();
-                raceCar.name = "Sprint Car";
-                raceCar.speed = 160;
-                raceCar.horsePower = 1000;
+                raceCar = new FlyweightSprintCar("Sprint Car", 160, 1000);
                 break;
             default:
                 throw new IllegalArgumentException("Unsupported car type.");

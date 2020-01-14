@@ -3,7 +3,9 @@ package org.shiva.designpatterns.structural.flyweight.model;
 public class FlyweightSprintCar extends RaceCar {
     /*Track number of flyweight instantiation*/
     public static int num;
-    public FlyweightSprintCar() {
+
+    public FlyweightSprintCar(String name, int speed, int horsePower) {
+        super(name, speed, horsePower);
         num++;
     }
 

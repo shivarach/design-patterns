@@ -1,6 +1,12 @@
 package org.shiva.designpatterns.structural.flyweight.model;
 
 public abstract class RaceCar {
+    public RaceCar(String name, int speed, int horsePower) {
+        this.name = name;
+        this.speed = speed;
+        this.horsePower = horsePower;
+    }
+
     /*Intrinsic state  stored and shared in the Flyweight object*/
 
     protected String name;
