@@ -9,4 +9,4 @@ Commander looks same as strategy. The difference is
 * Command is an action that is done on a passed in object
 
 
-Eg: Runnable command in thread pool with run action, Networking i.e. player actions in computer games
+Eg: Runnable command in thread pool with run action; Networking i.e. player actions in computer games
